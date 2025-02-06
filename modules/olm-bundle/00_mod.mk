@@ -32,7 +32,7 @@ $(call fatal_if_undefined,olm_project_name)
 olm_openshift_version ?= v4.6
 
 # A mapping of git repos to push to when publishing, OLMs are published by PRing
-# into a RedHat repo.
+# into a Red Hat repo.
 #
 # For example, to publish to the certified-operators repos you may do this:
 #   olm_publish_repos += redhat-openshift-ecosystem/certified-operators=jetstack/certified-operators
@@ -41,7 +41,7 @@ olm_openshift_version ?= v4.6
 # where to push the changes to PR from
 olm_publish_repos ?=
 
-# Project ID is the components ID if publishing to the RedHat certified operators
+# Project ID is the components ID if publishing to the Red Hat certified operators
 # program
 olm_project_id ?=
 
